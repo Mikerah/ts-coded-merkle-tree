@@ -1,2 +1,3 @@
-# ts-coded-merkle-tree
-A typescript implementation of a coded merkle tree
+# coded-merkle-tree
+
+An implementation of coded merkle trees
