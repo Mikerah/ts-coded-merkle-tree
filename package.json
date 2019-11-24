@@ -1,8 +1,8 @@
 {
   "name": "coded-merkle-tree",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "An implementation of coded merkle trees",
-  "main": "build/main/index.js",
+  "main": "index.js",
   "typings": "build/main/index.d.ts",
   "module": "build/module/index.js",
   "repository": "https://github.com/Mikerah/coded-merkle-tree",
@@ -50,7 +50,8 @@
     "node": ">=8.9"
   },
   "dependencies": {
-    "sha.js": "^2.4.11"
+    "sha.js": "^2.4.11",
+    "sha3": "^2.0.7"
   },
   "devDependencies": {
     "@bitjson/npm-scripts-info": "^1.0.0",
@@ -93,5 +94,6 @@
     "exclude": [
       "**/*.spec.js"
     ]
-  }
+  },
+  "author": "Mikerah <mikerahqc@protonmail.com>"
 }
